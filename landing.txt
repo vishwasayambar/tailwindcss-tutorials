@@ -1,0 +1,26 @@
+Classes and their small description
+
+
+Padding Classes 
+
+padding to a single side
+pt-* add padding to the top of an element,
+pr-* add padding to the right of an element, 
+pb-* add padding to the bottom of an element,
+pl-* add padding to the left of an element.
+
+horizontal padding
+px-* 
+vertical padding
+py-* 
+padding to all sides
+p-*
+
+Arbitrary values
+If you need to use a one-off padding value that doesn’t make sense to include in your theme,
+use square brackets to generate a property on the fly using any arbitrary value.
+<div class="p-[101px]">
+  <!-- ... -->
+</div>
+
+space-x-3 = it used to give common space between all "li" tag
